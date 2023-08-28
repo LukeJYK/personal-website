@@ -3,7 +3,7 @@ layout: page
 permalink: /notes/
 title: Notes
 description: Some notes for learning instersting things.
-nav: true
+nav: false
 nav_order: 3
 ---
 
