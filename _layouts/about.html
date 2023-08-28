@@ -13,7 +13,7 @@ layout: default
 
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <div class="profile float-{%- if page.profile.align == 'right' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -35,15 +35,20 @@ layout: default
             {%- endif %}
           </div>
           {%- endif %}
-		  <p>I am Yankai Jiang, a first year Computer Engineering PhD student in Northeastern University, advised by Prof. Devesh Tiwari. I'm part of the Goodwill Lab.</p> 
-			<p><i class="far fa-building" aria-hidden="true"></i> Office: 140 Fenway, Boston, MA 02115</p>
+		  <!-- <p>I am Yankai Jiang, a first year Computer Engineering PhD student in Northeastern University, advised by Prof. Devesh Tiwari. I'm part of the Goodwill Lab.</p>  -->
+			<div style="line-height: 100%;">
+      <p>Ph.D student</p>
+      <p><a href="https://ece.northeastern.edu/">Department of Electrical & Computer Engineering</a></p>
+      <p><a href="https://coe.northeastern.edu/">Northeastern University College of Engineering</a></p>
+      
+      <p><i class="far fa-building" aria-hidden="true"></i> Office: 140 Fenway, Boston, MA 02115</p>
                     <p><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email: jiang [at] yank [at] northeastern [dot] edu OR yankai [at] u [dot] northwestern [dot] edu</p>
-					<p>&nbsp;<a href="https://www.linkedin.com/in/yankai-j-448a69171/"><i class="fab fa-linkedin-in"></i> Linkedin </a> /
+                    <p><a href="https://www.linkedin.com/in/yankai-j-448a69171/"><i class="fab fa-linkedin-in"></i> Linkedin </a> /
                       <a href="https://github.com/LukeJYK"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a> /
                       <a href="https://twitter.com/dudu65783974"><i class="fab fa-twitter"></i> Twitter </a>
                     </p>
                   </div>
-                </td>
+                 
           <div class="clearfix">
             {{ content }}
           </div>
@@ -57,145 +62,83 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 		   <div class="post-content">
-          <p>I am a Ph.D. student at the <a href="https://www.csl.cornell.edu/">Computer Systems Laboratory</a>, <a href="https://www.cornell.edu/">Cornell University</a>, supervised by Prof. <a href="https://www.csl.cornell.edu/~zhiruz/">Zhiru Zhang</a>. I received my B.E. degree from the <a href="http://cse.sysu.edu.cn/">School of Computer Science and Engineering</a>, <a href="http://www.sysu.edu.cn/2012/en/index.htm">Sun Yat-sen University</a> in 2021.</p>
+          <p></p>
 
+<!-- start -->
+<p>I am Yankai Jiang, a first year Computer Engineering PhD student in Northeastern University, advised by Prof. <a target="_self" href="https://coe.northeastern.edu/people/tiwari-devesh/" rel="noopener noreferrer">Devesh Tiwari</a>. I'm part of the <a target="_self" href="https://goodwillcomputinglab.github.io/" rel="noopener noreferrer">Goodwill Lab</a>. </p>
+<p>Previously I obtained my M.S. in Computer Engineering from <a target="_self" href="https://www.mccormick.northwestern.edu/electrical-computer/" rel="noopener noreferrer">Northwestern University</a> in 2023, where I was fortunate to work with Prof. <a target="_self" href="http://pdinda.org/" rel="noopener noreferrer">Peter Dinda</a> in <a target="_self" href="http://presciencelab.org/" rel="noopener noreferrer">Prescience Lab</a>, Prof. <a target="_self" href="http://xinyuxing.org/" rel="noopener noreferrer">Xinyu Xing</a> and Prof. <a target="_self" href="http://cusecurity.cs.colorado.edu/yueqichen/" rel="noopener noreferrer">Yueqi Chen</a> in <a target="_self" href="https://seclab.cs.northwestern.edu/" rel="noopener noreferrer">Northwestern S&P Group</a>. Prior to that, I graduated from Xi'an Jiaotong University with B.E. in Automation. Also, I was a student from <a target="_self" href="https://en.wikipedia.org/wiki/Special_Class_for_the_Gifted_Young" rel="noopener noreferrer">Special Class for the Gifted Young</a>.</p>
+		  
 <h3 id="education">Education</h3>
 <table width="100%" align="middle" border="0" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top"><span class="font-weight-bold">Northeastern University</span>, Boston, MA, US<br />
+    Ph.D in Computer Engineering<br />
+    <!-- Accumulated GPA: 4.0/4.0 -->
+    </td>
+    <td width="38%" align="right" valign="top">Sept. 2023 - Present</td>
+    <!-- <td width="12%" rowspan="2" valign="top"><img src="assets/img/nwu-logo.png" width="100%" style="display: flex; justify-content: center;" /></td> -->
+    <td width="10%">
+      <img src="assets/img/neu-logo.png" width="75%" style="display: block; margin-left: auto; margin-right: auto;">
+    </td>
+  </tr>
 <tr>
-  <td width="50%" valign="top"><b>Cornell University</b>, US<br />
-  Ph.D. in Computer Science<br />
-  Accumulated GPA: 4.0/4.0
+  <td width="50%" valign="top"><span class="font-weight-bold">Northwestern University</span>, Evanston, IL, US<br />
+  M.Sc in Computer Engineering<br />
+  <!-- Accumulated GPA: 4.0/4.0 -->
   </td>
-  <td width="38%" align="right" valign="top">Aug. 2021 - Present</td>
-  <td width="12%" rowspan="2" valign="top"><img src="/images/cu-logo.png" width="100%" style="display: flex; justify-content: center;" /></td>
+  <td width="38%" align="right" valign="top">Sept. 2021 - Jun. 2023</td>
+  <td width="10%">
+    <img src="assets/img/nwu-logo.png" width="75%" style="display: block; margin-left: auto; margin-right: auto;">
+  </td>
+  <!-- <td width="12%" rowspan="2" valign="top"><img src="assets/img/nwu-logo.png" width="100%" style="display: flex; justify-content: center;" /></td> -->
 </tr>
+
 <tr>
+  <td width="50%" valign="top"><span class="font-weight-bold">Xi'an Jiaotong University</span>, Xi'an, China<br />
+  B.E. in Automation</td>
+  <td width="38%" align="right" valign="top">Aug. 2016 - Jun. 2020</td>
+  <td width="10%">
+    <img src="assets/img/xjtu-logo.png" width="75%" style="display: block; margin-left: auto; margin-right: auto;">
+  </td>
+  <!-- <td width="12%" rowspan="2" valign="top"><img src="assets/img/xjtu-logo.png" width="100%" style="display: flex; justify-content: center;" /></td> -->
 </tr>
-<tr>
-  <td width="50%" valign="top"><b>Sun Yat-sen University</b>, China<br />
-  B.E. in Computer Science</td>
-  <td width="38%" align="right" valign="top">Aug. 2017 - Jun. 2021</td>
-  <td width="12%" rowspan="2" valign="top"><img src="/images/sysu-logo.png" width="100%" style="display: flex; justify-content: center;" /></td>
-</tr>
-<tr>
+<!-- <tr>
   <td colspan="2" valign="top">
   Thesis: <a href=""><strong>High-Performance Concurrent Graph Processing System</strong></a><br />
   <font color="red">(Outstanding Undergraduate Thesis)</font><br />
   Overall GPA: 3.95/4.00 (Major GPA: 3.99/4.00)<br />
   Ranking: 1/188
   </td>
-</tr>
+</tr> -->
 </table>
 
-<h3 id="work-experience">Work Experience</h3>
-<table width="100%" align="middle" border="0" cellspacing="0" cellpadding="0">
+<h3 id="work-experience">Experience</h3>
+<!-- <table width="100%" align="middle" border="0" cellspacing="0" cellpadding="0">
 <tr>
-  <td width="70%" valign="top"><a href="https://aws.amazon.com/ai/"><b>Amazon Web Services (AWS)</b>&nbsp;</a><img src="/images/aws-logo.png" width="5%" style="vertical-align:middle;" />, Santa Clara, CA, US<br />
+  <td width="70%" valign="top"><a href="https://aws.amazon.com/ai/"><b>Amazon Web Services (AWS)</b>&nbsp;</a><img src="assets/img/aws-logo.png" width="5%" style="vertical-align:middle;" />, Santa Clara, CA, US<br />
   Applied Scientist Intern, Deep Engine-Science Team<br />
   Mentors: <a href="https://comaniac.github.io/">Cody Hao Yu</a>, <a href="https://szhengac.github.io/">Shuai Zheng</a>, and <a href="http://yidawang.org/">Yida Wang</a></td>
   <td width="30%" align="right" valign="top">Aug. 2022 - Apr. 2023</td>
 </tr>
 <tr>
-  <td width="70%" valign="top"><a href="https://ailab.bytedance.com/"><b>ByteDance AI Lab</b>&nbsp;</a><img src="/images/bd-logo.jpg" width="4%" style="vertical-align:middle;" />, Beijing, China<br />
+  <td width="70%" valign="top"><a href="https://ailab.bytedance.com/"><b>ByteDance AI Lab</b>&nbsp;</a><img src="assets/img/xjtu-logo.png" width="4%" style="vertical-align:middle;" />, Beijing, China<br />
   Research Intern, MLSys Team, Applied Machine Learning (AML)<br />
   Mentors: <a href="https://www.linkedin.com/in/jun-he-15a3263b/">Jun He</a> and <a href="http://yibozhu.com/">Yibo Zhu</a></td>
   <td width="30%" align="right" valign="top">Aug. 2020 - May 2021</td>
 </tr>
-</table>
+</table> -->
 
 <h3 id="teaching">Teaching</h3>
 <ul>
   <li>
-    <p><a href="https://cs3110.github.io/textbook/cover.html"><strong>CS3110: Data Structures and Functional Programming</strong></a><br />
-Spring 2022, TA, Cornell Universiy</p>
+    <p><a href="https://northwestern-cs340.github.io/fall2022/">CS340: Introduction to Computer Networking</a><br />
+Fall 2022, PM, Northwestern Universiy</p>
   </li>
   <li>
-    <p><a href="https://www.cs.cornell.edu/~bracy/teach/"><strong>CS3410: Computer System Organization and Programming</strong></a><br />
-Fall 2021, TA, Cornell Universiy</p>
+    <p><a href="https://networks.cs.northwestern.edu/CS340-w23/syllabus.html">CS340: Introduction to Computer Networking</a><br />
+Winter 2023, PM, Northwestern Universiy</p>
   </li>
 </ul>
-
-<h3 id="professional-service">Professional Service</h3>
-<ul>
-  <li><strong>Artifact Evaluation Committee:</strong> <a href="https://sysartifacts.github.io/sosp2023/">SOSP’23</a>, <a href="https://www.usenix.org/conference/osdi23/call-for-artifacts">OSDI’23</a>, <a href="https://www.usenix.org/conference/osdi23/call-for-artifacts">ATC’23</a>, <a href="https://mlsys.org/">MLSys’23</a>, <a href="https://pldi23.sigplan.org/">PLDI’23</a>, <a href="https://www.usenix.org/conference/osdi22/call-for-artifacts">OSDI’22</a>, <a href="https://www.usenix.org/conference/atc22/call-for-artifacts">ATC’22</a>, <a href="https://pldi22.sigplan.org/track/pldi-2022-PLDI-Research-Artifacts#About">PLDI’22</a>, <a href="https://sysartifacts.github.io/eurosys2022/">EuroSys’22</a>, <a href="https://sysartifacts.github.io/sosp2021/">SOSP’21</a></li>
-  <li><strong>External Reviewer:</strong> <a href="https://iccad.com/">ICCAD’22</a></li>
-  <li><strong>Student Volunteer:</strong> <a href="https://www.fccm.org/volunteer-2022/">FCCM’22</a></li>
-</ul>
-
-<!--
-OSDI'23/ATC'23, Boston, MA
-ISCA'23/PLDI'23, Orlando, FL
-NSDI'23, Boston, MA
-ASPLOS'23, Vancouver (virtual), Canada
-MLSys'22, Santa Clara, CA
-ISCA'22, New York, NY
-FCCM'22, New York, NY
-SC'21, St. Louis, MO
-ICCAD'19, Denver, CO
--->
-
-<h3 id="awards--honors">Awards &amp; Honors</h3>
-<ul>
-  <li><strong>USENIX NSDI’23 Student Grant</strong>, USENIX, 2023</li>
-  <li><strong>FPGA’21 Best Paper Nominee</strong>, FPGA, 2021</li>
-  <li><strong>Outstanding Undergraduate Thesis Award</strong>, Sun Yat-sen University, 2021</li>
-  <li><strong>SenseTime Scholarship</strong> (21 undergrads in China), SenseTime, 2020</li>
-  <li><strong>CCF Elite Collegiate Award</strong> (98 undergrads in China), China Computer Federation (CCF), 2020</li>
-  <li><strong>Chinese National Scholarship $\times$ 2</strong> (Top 1%), Ministry of Education of PRC, 2018-2020</li>
-  <li><strong>First-Prize Scholarship $\times$ 3</strong> (Top 5%), Sun Yat-sen University, 2017-2020</li>
-  <li><strong>Samsung Scholarship</strong> (Top 1%), Samsung Electronics, 2017-2018</li>
-</ul>
-
-<h3 id="talks">Talks</h3>
-<ul>
-  <li><strong>Decoupled Model Schedule for Large Deep Learning Model Training</strong>
-    <ul>
-      <li>
-        <font color="gray"><a href="https://www.src.org/calendar/e006829/">SRC TECHCON</a>, Austin, TX, Sep 12, 2023</font>
-      </li>
-      <li>
-        <font color="gray"><a href="https://acecenter.grainger.illinois.edu/">Spring ACE Center Meeting</a>, Orlando, FL, June 22, 2023</font>
-      </li>
-      <li>
-        <font color="gray"><a href="https://www.csl.cornell.edu/retreat/">CSL Retreat</a>, Ithaca, NY, May 12, 2023</font>
-      </li>
-      <li>
-        <font color="gray"><a href="https://www.bu.edu/cise/agenda-pre-nsdi-gathering-at-bu-april-23-2023/">Pre-NSDI Systems Gathering @ BU</a>, Boston, MA, Apr 16, 2023</font>
-        <!-- * <font color="gray"><a href="">AWS AI</a>, Apr 10, 2023</font> -->
-      </li>
-      <li>
-        <font color="gray"><a href="https://www.tvmcon.org/talks/decoupled-model-schedule-for-large-deep-learning-model-training">TVMCon</a>, Online, Mar 17, 2023</font>
-        <!-- * <font color="gray"><a href="https://www.cs.cornell.edu/information/news/newsitem12657/researchers-share-work-opportunities-acsu-research-night">Cornell CIS Research Night</a>, Ithaca, Mar 13, 2023</font> -->
-        <!-- * <font color="gray"><a href="https://www.ece.cornell.edu/ece">Cornell ECE Visit Day</a>, Ithaca, Mar 11, 2023</font> -->
-      </li>
-    </ul>
-  </li>
-  <li><strong>An MLIR-Based Intermediate Representation for Accelerator Design with Decoupled Hardware Customizations</strong> <a href="https://youtu.be/yOk63LWbkqk"><i class="fa fa-video-camera" aria-hidden="true"></i></a> <a href="files/talks/HCL-MLIR-ODM-Aug11-2022.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a><br />
-    <ul>
-      <li>
-        <font color="gray"><a href="https://www.src.org/program/jump/crisp/">CRISP Liaison Meeting</a>, Online, Sep 28, 2022</font>
-      </li>
-      <li>
-        <font color="gray"><a href="https://mlir.llvm.org/talks/">MLIR Open Design Meeting</a>, Online, Aug 11, 2022</font>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Krill: A Compiler and Runtime System for Concurrent Graph Processing</strong> <a href="files/talks/Krill-SC21-Nov17-2021.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a><br />
-    <ul>
-      <li>
-        <font color="gray"><a href="https://sc21.supercomputing.org/presentation/?id=pap214&amp;sess=sess168">SC'21</a>, St. Louis, MO, Nov 17, 2021</font>
-      </li>
-    </ul>
-  </li>
-  <li><strong>A Deep-Reinforcement-Learning-Based Scheduler for FPGA HLS</strong><br />
-    <ul>
-      <li>
-        <font color="gray"><a href="https://events-siteplex.confcats.io/iccad2022/wp-content/uploads/sites/72/2021/12/2019_ICCAD_ConferenceProgram_Web.pdf">ICCAD'19</a>, Denver, CO, Nov 5, 2019</font>
-      </li>
-    </ul>
-  </li>
-</ul>
-
         </div>
       </article>
     </div>
